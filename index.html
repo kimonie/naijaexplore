@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naija Explore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    start
+    <div class=" container">
+        <header class="header">
+            <img src="img/logo.png" alt="NaijaXplore Logo" class="logo">
+
+            <form action="#" class="search">
+                <input type="text" name="" id="" class="search__input" placeholder="Search Hotels">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+
+
+            <div class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="profile photo" class="user-nav__user-photo">
+                    <span class="user-nav__username">Oluwaseun</span>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                NAVIGATION
+            </nav>
+            <main class="hotel-view">
+                HOTEL
+            </main>
+        </div>
+    </div>
 </body>
 </html>
