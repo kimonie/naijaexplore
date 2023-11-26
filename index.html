@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class=" container">
         <header class="header">
@@ -45,10 +46,144 @@
         </header>
         <div class="content">
             <nav class="sidebar">
-                NAVIGATION
+                <ul class="side-nav">
+                    <li class="side-nav__item">Hotel</li>
+                    <li class="side-nav__item">Flight</li>
+                    <li class="side-nav__item">Car Rental</li>
+                    <li class="side-nav__item">Tours </li>
+                </ul>
+                <div class="legal">
+                    <p class="copyright">© 2017 by trillo. All rights reserved.</p>
+                </div>
             </nav>
             <main class="hotel-view">
-                HOTEL
+                <div class="hotel-view__photos">
+                    <img src="img/hotel-1.jpg" alt="" class="hotel-view__photo">
+                    <img src="img/hotel-2.jpg" alt="" class="hotel-view__photo">
+                    <img src="img/hotel-3.jpg" alt="" class="hotel-view__photo">
+                </div>
+                <div class="hotel-info">
+                    <div class="hotel-details">
+                        <p class="hotel-details__name">Sheraton</p>
+                        <div class="hotel-details__rating">
+                            <svg class="hotel-details__star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="hotel-details__star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="hotel-details__star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="hotel-details__star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="hotel-details__star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="hotel-loc">
+                        <div class="hotel-loc__details">
+                            <p>Ikeja, Lagos</p>
+                        </div>
+                        <div class="hotel-loc__vote">
+                            <p class="hotel-loc__vote-score">8.5</p>
+                            <p class="hotel-loc__vote-count">734 VOTES</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hotel-content">
+                    <div class="partOne">
+                        <div class="partOne__about">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sed facilis quae debitis in eos quisquam deleniti ipsa, natus ratione nam at ea minus qui dolor vitae totam exercitationem expedita!.</p>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur modi recusandae in pariatur nulla dolorum earum, porro deleniti magni reiciendis aliquid harum tempora totam. Repellat quam assumenda voluptates enim!</p>
+                        </div>
+
+                        <div class="partOne__features">
+                            <ul>
+                                <li>Close to the beach</li>
+                                <li>Free airport shuttle</li>
+                                <li>Air conditioning and heating</li>
+                                <li>we speak all languages</li>
+                            </ul>
+                            <ul>
+                                <li>Breakfast included</li>
+                                <li>Free wifi in all rooms</li>
+                                <li>pets allowed</li>
+                                <li>perfect for families</li>
+                            </ul>
+                        </div>
+
+                        <div class="partOne__recommend">
+                            <div class="partOne__recommend-note">
+                                <p>Lucy and 3 others recommend this hotel</p>
+                            </div>
+                            <div class="partOne__recommend-thumbnail">
+                                <img src="img/user-3.jpg" alt="" class="recommend__thumbnail-img">
+                                <img src="img/user-4.jpg" alt="" class="recommend__thumbnail-img">
+                                <img src="img/user-5.jpg" alt="" class="recommend__thumbnail-img">
+                                <img src="img/user-6.jpg" alt="" class="recommend__thumbnail-img">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="partTwo">
+                        <div class="testimonial">
+                            <p class="testimonial__statement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos similique praesentium quasi officiis reiciendis.</p>
+
+                            <div class="testimonial__author">
+                                <div class="testimonial__author-details">
+                                    <img src="img/user-3.jpg" alt="" class="testimonial__author-image">
+                                    <span>
+                                        Nick Smith<br />
+                                        Feb 23rd, 2023
+                                    </span>
+                                </div>
+                                <div class="testimonial__author-rating">
+                                    8.9
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <p class="testimonial__statement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos similique praesentium quasi officiis reiciendis.</p>
+
+                            <div class="testimonial__author">
+                                <div class="testimonial__author-details">
+                                    <img src="img/user-2.jpg" alt="" class="testimonial__author-image">
+                                    <span>
+                                        Nick Smith<br />
+                                        Feb 23rd, 2023
+                                    </span>
+                                </div>
+                                <div class="testimonial__author-rating">
+                                    8.9
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="button">
+                            Show all &rarr;
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="booking">
+                    <p class="booking__cta">
+                        Good news! we have 4 free rooms for your selected dates!
+                    </p>
+                    <div class="booking__button">
+                        Book now
+                    </div>
+                </div>
             </main>
         </div>
     </div>

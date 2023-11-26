@@ -112,6 +112,104 @@ body {
     border-radius: 50%;
     margin-right: 1rem; }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.side-nav {
+  list-style: none; }
+  .side-nav__item {
+    padding: .8rem; }
+
+.hotel-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff; }
+
+.hotel-view__photos {
+  display: flex; }
+
+.hotel-view__photo {
+  width: 33.3333%; }
+
+.hotel-details {
+  display: flex;
+  align-items: center; }
+  .hotel-details__name {
+    padding: 2rem; }
+  .hotel-details__rating {
+    width: 8rem;
+    display: flex; }
+  .hotel-details__star {
+    height: 2.3rem;
+    margin: 0; }
+
+.hotel-loc {
+  display: flex;
+  align-items: center; }
+  .hotel-loc__details {
+    padding: 2rem; }
+  .hotel-loc__vote {
+    padding: 2rem; }
+
+.hotel-content {
+  background-color: var(--color-grey-Light-3);
+  display: flex;
+  justify-content: space-around; }
+
+.partOne {
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: 3rem;
+  width: 60%; }
+  .partOne__about {
+    padding: .5rem 0 2rem;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.499); }
+  .partOne__features {
+    display: flex;
+    padding: 2rem 0 2rem;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.499); }
+    .partOne__features ul {
+      list-style: none;
+      width: 50%; }
+      .partOne__features ul li {
+        padding-bottom: .5rem; }
+  .partOne__recommend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 2rem; }
+    .partOne__recommend-thumbnail img {
+      width: 5rem;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-left: -2rem; }
+
+.partTwo {
+  width: 30%; }
+
+.testimonial {
+  background-color: #fff;
+  border-radius: .5rem;
+  margin-bottom: 3rem;
+  padding: 2rem; }
+  .testimonial__author {
+    display: flex;
+    justify-content: space-between; }
+  .testimonial__author-details {
+    display: flex; }
+  .testimonial__author-image {
+    border-radius: 50%;
+    width: 4rem;
+    padding-right: 1rem; }
+
+.booking {
+  background-color: var(--color-grey-Light-1);
+  box-shadow: 0 -0.2rem 1rem rgba(0, 0, 0, 0.2);
+  padding: 2rem 0 2rem;
+  text-align: center; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;

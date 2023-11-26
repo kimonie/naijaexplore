@@ -124,3 +124,177 @@
 
 
 }
+
+
+////////////////
+/// SIDE BAR
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-nav {
+    list-style: none;
+
+    &__item {
+        padding: .8rem;
+    }
+}
+
+
+//////////////////
+/// MAIN CONTENT
+
+.hotel-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.hotel-view {
+
+    &__photos {
+        display: flex;
+    }
+
+    &__photo {
+        width: 33.3333%;
+    }
+
+}
+
+.hotel-details {
+    display: flex;
+    align-items: center;
+    
+
+    &__name {
+        padding: 2rem;
+    }
+
+    &__rating {
+        width: 8rem;
+        display: flex;
+    }
+
+    &__star {
+        height: 2.3rem;
+        margin: 0;
+        // padding: 1rem;
+    }
+}
+
+.hotel-loc {
+    display: flex;
+    align-items: center;
+    
+    &__details {
+        padding: 2rem;
+    }
+
+    &__vote {
+        padding: 2rem;
+    }
+}
+
+.hotel-content {
+    background-color: var(--color-grey-Light-3);
+    display: flex;
+    justify-content: space-around;
+    // margin: 6rem 0;
+}
+
+.partOne {
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 60%;
+
+    &__about {
+        padding: .5rem 0 2rem;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.499);
+    }
+
+    &__features{
+        display: flex;
+        padding: 2rem 0 2rem;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.499);
+
+
+        ul {
+            list-style: none;
+            width: 50%;
+
+            li {
+                padding-bottom: .5rem;
+            }
+        }
+    } 
+
+    &__recommend {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0 2rem;
+
+        &-note {
+
+        }
+
+        &-thumbnail {
+
+            img {
+                width: 5rem;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                margin-left: -2rem;
+            }
+        }
+    }
+
+}
+
+.partTwo {
+    width: 30%;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+
+
+    &__author {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__author-details {
+        display: flex;
+    }
+
+    &__author-image {
+        border-radius: 50%;
+        width: 4rem;
+        padding-right: 1rem;
+    }
+
+}
+
+.booking {
+    background-color: var(--color-grey-Light-1);
+    box-shadow: 0 -.2rem 1rem rgba(0,0,0,.2);
+    padding: 2rem 0 2rem;
+    text-align: center;
+
+    &__cta {
+        
+    }
+
+    &__button {
+        // margin: 0 auto;
+    }
+}
