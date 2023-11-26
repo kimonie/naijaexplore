@@ -122,16 +122,16 @@ body {
   .side-nav__item {
     padding: .8rem; }
 
-.hotel-info {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff; }
-
 .hotel-view__photos {
   display: flex; }
 
 .hotel-view__photo {
   width: 33.3333%; }
+
+.hotel-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff; }
 
 .hotel-details {
   display: flex;
@@ -154,9 +154,9 @@ body {
     padding: 2rem; }
 
 .hotel-content {
-  background-color: var(--color-grey-Light-3);
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin: 6rem 0; }
 
 .partOne {
   background-color: #fff;
@@ -196,7 +196,9 @@ body {
   padding: 2rem; }
   .testimonial__author {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4rem; }
   .testimonial__author-details {
     display: flex; }
   .testimonial__author-image {
@@ -235,5 +237,4 @@ body {
   flex: 0 0 18%; }
 
 .hotel-view {
-  background-color: #fff;
   flex: 1; }

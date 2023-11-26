@@ -147,13 +147,9 @@
 //////////////////
 /// MAIN CONTENT
 
-.hotel-info {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-}
 
 .hotel-view {
+    // background-color: var(--color-grey-Light-1);
 
     &__photos {
         display: flex;
@@ -164,6 +160,14 @@
     }
 
 }
+
+.hotel-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    // margin-bottom: 8rem;
+}
+
 
 .hotel-details {
     display: flex;
@@ -200,10 +204,9 @@
 }
 
 .hotel-content {
-    background-color: var(--color-grey-Light-3);
     display: flex;
     justify-content: space-around;
-    // margin: 6rem 0;
+    margin: 6rem 0;
 }
 
 .partOne {
@@ -270,6 +273,8 @@
     &__author {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-top: 1.4rem;
     }
 
     &__author-details {
